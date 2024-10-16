@@ -1,0 +1,163 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000000;
+}
+
+/* Header */
+
+#header {
+  display: flex;
+  flex-direction: column;
+}
+
+#header .navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#header .navbar .btn-again {
+  margin: 10px;
+  padding: 5px;
+  width: 150px;
+  height: 80px;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  background-color: antiquewhite;
+  border: 4px white solid;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#header .navbar .btn-again:hover {
+  background-color: bisque;
+}
+
+#header .navbar .text-choose {
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  color: aliceblue;
+  margin: 10px;
+  padding: 5px;
+  font-weight: 800;
+}
+
+#header .heading-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#header .heading-container .primary-heading {
+  color: aliceblue;
+  margin-bottom: 30px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 50px;
+}
+
+#header .heading-container .number-block {
+  display: flex;
+  background-color: antiquewhite;
+  width: 120px;
+  height: 100px;
+  border: 4px white solid;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 50px;
+  font-family: "Courier New", Courier, monospace;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Break Point Line */
+
+.line {
+  border: 3px solid white;
+  margin-top: 10px;
+}
+
+/* Section */
+
+#main {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  height: 30%;
+}
+
+#main .left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#main .left .guess-number {
+  height: 100px;
+  width: 200px;
+  border: 3px solid aliceblue;
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: antiquewhite;
+  font-size: 40px;
+  padding: 5px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  text-align: center;
+}
+
+#main .left .btn-check {
+  height: 50px;
+  width: 150px;
+  margin-top: 20px;
+  padding: 5px;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  background-color: antiquewhite;
+  border: 4px white solid;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#main .left .btn-check:hover {
+  background-color: bisque;
+}
+
+#main .right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+#main .right .text-message {
+  margin: 10px;
+  color: aliceblue;
+  font-size: 30px;
+  font-family: "Courier New", Courier, monospace;
+  /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
+  font-weight: bold;
+}
+
+#main .right .text-label-score {
+  margin-top: 20px;
+  color: aliceblue;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+#main .right .text-label-highscore {
+  margin-top: 20px;
+  color: aliceblue;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bolder;
+  font-size: 25px;
+}

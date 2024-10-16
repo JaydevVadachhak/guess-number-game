@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./styles/style.css" />
+
+    <title>DOM - Guess Number - 1</title>
+</head>
+
+<body>
+    <header id="header">
+        <nav class="navbar">
+            <button class="btn-again">Play Again!</button>
+            <p class="text-choose">(Between 1 and 20)</p>
+        </nav>
+        <div class="heading-container">
+            <h1 class="primary-heading">Guess My Number!</h1>
+            <div class="number-block">?</div>
+        </div>
+    </header>
+    <hr class="line" />
+    <main>
+        <section id="main">
+            <aside class="left">
+                <input type="number" class="guess-number" value="1" min="1" max="20" />
+                <button class="btn-check">Check!</button>
+            </aside>
+            <aside class="right">
+                <p class="text-message">Start guessing...</p>
+                <p class="text-label-score">
+                    💯 Score: <span class="score">20</span>
+                </p>
+                <p class="text-label-highscore">
+                    🥇 Highscore: <span class="highscore">0</span>
+                </p>
+            </aside>
+        </section>
+    </main>
+    <script src="./scripts/script.js"></script>
+</body>
+
+</html>
